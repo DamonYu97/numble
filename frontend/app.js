@@ -36,7 +36,7 @@ const app = Vue.createApp({
             };
 
 
-            await fetch('http://127.0.0.1:8081/game', method = {
+            await fetch('http://150.230.127.93:8081/game', method = {
                 method: 'POST',
                 headers: {
                     'Content-Type' : 'application/json'
@@ -57,7 +57,7 @@ const app = Vue.createApp({
             //Ask for the right hand side if the game is in easy mode
             if(!this.hardMode)
             {
-                fetch(`http://127.0.0.1:8081/game/${this.gameId}/rhs`, method = {
+                fetch(`http://150.230.127.93:8081/game/${this.gameId}/rhs`, method = {
                         method: "GET",
                         headers: {
                             'Content-Type' : 'application/json'
@@ -127,7 +127,7 @@ const app = Vue.createApp({
                         }
                     }
                     if(valid){
-                        fetch(`http://127.0.0.1:8080/game/${this.gameId}/guess`, method = {
+                        fetch(`http://150.230.127.93:8081/game/${this.gameId}/guess`, method = {
                             method: "POST",
                             headers: {
                                 'Content-Type' : 'application/json'
