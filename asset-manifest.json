@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/numble/static/css/main.584d9fe3.css",
+    "main.js": "/numble/static/js/main.f8362d5d.js",
+    "static/js/787.0f148dca.chunk.js": "/numble/static/js/787.0f148dca.chunk.js",
+    "static/media/hard.png": "/numble/static/media/hard.4374f385d5feee1ecfe1.png",
+    "index.html": "/numble/index.html",
+    "main.584d9fe3.css.map": "/numble/static/css/main.584d9fe3.css.map",
+    "main.f8362d5d.js.map": "/numble/static/js/main.f8362d5d.js.map",
+    "787.0f148dca.chunk.js.map": "/numble/static/js/787.0f148dca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.584d9fe3.css",
+    "static/js/main.f8362d5d.js"
+  ]
+}
