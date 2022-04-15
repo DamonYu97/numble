@@ -1,0 +1,71 @@
+.cell, .fixed-cell, .input-cell {
+    border: none;
+    border-radius: .25rem;
+    width: 4rem;
+    height: 4rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(152 148 132/var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    --tw-border-opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: .125rem;
+    margin-right: .125rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+
+.fixed-cell {
+    background-color: rgb(200 200 200/var(--tw-bg-opacity));
+    color: rgb(0 0 0/var(--tw-text-opacity));
+}
+
+.input-cell {
+    caret-color: transparent;
+    text-align: center;
+}
+
+.input-cell:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.correct {
+    background-color: darkgreen;
+}
+
+.wong-position {
+    background-color: #820458;
+}
+
+.not-exist {
+    background-color: black;
+}
+
+.nav-btn {
+    background-color: transparent;
+    border: none;
+    color: black;
+    text-decoration: none!important;
+}
+
+.nav-btn:hover {
+    color: #820458;
+}
+
+.numble-sub-name {
+    font-family: 'Quicksand',sans-serif!important;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #398874;
+}
+
+.numble-name {
+    font-family: 'Quicksand',sans-serif!important;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #820458;
+}
