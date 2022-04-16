@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "compile": "npm run build && cd build && jar -cvf web.war ."
+    "compile": "npm run build && cd build && jar -cvf numble.war ."
   },
   "eslintConfig": {
     "extends": [
@@ -43,8 +43,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
