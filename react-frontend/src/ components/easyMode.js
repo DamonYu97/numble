@@ -206,7 +206,7 @@ class EasyModeComponent extends React.Component{
                         </div>
                     </div>
                     <footer className="App-Footer">
-                        &copy; Numble Game &#183; Damon, Cornor, Berke <br/>
+                        &copy; Numble Game &#183; Lilin, Conor, Berke <br/>
                         University of St Andrews
                     </footer>
                 </div>

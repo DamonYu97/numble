@@ -43,16 +43,16 @@ function App() {
                         </Link>
                     </div>
                     <div className="col-5">
-                        <a className="d-flex flex-column align-items-center m-2" href="/hard">
+                        <Link className="d-flex flex-column align-items-center m-2" to="/hard">
                             <span className="numble-name mode-name">Hard</span>
                             <img className="bigIcon p-3" src={hard} alt="hard"/>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
         </div>
         <footer className="App-Footer">
-            &copy; Numble Game &#183; Damon, Cornor, Berke <br/>
+            &copy; Numble Game &#183; Lilin, Conor, Berke <br/>
             University of St Andrews
         </footer>
     </div>
