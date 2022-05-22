@@ -18,6 +18,7 @@ class HardModeComponent extends React.Component{
             isLoaded: false,
             model: null
         };
+        this.baseUrl = 'https://54.157.15.110:8081'
     }
 
     componentDidMount() {
@@ -31,7 +32,7 @@ class HardModeComponent extends React.Component{
     }
 
     createGame() {
-        const url = 'http://150.230.127.93:8081/game';
+        const url = this.baseUrl + '/game';
         const postBody = {
             mode: "HARD",
             numRows: 6,
@@ -65,7 +66,7 @@ class HardModeComponent extends React.Component{
     }
 
     getGame(id) {
-        const url = 'http://150.230.127.93:8081/game/' + id;
+        const url = this.baseUrl + '/game/' + id;
         const meta = {
             method: 'GET',
             headers: {
@@ -93,7 +94,7 @@ class HardModeComponent extends React.Component{
     }
 
     guess(id, guessExpression) {
-        const url = 'http://150.230.127.93:8081/game/' + id + '/guess';
+        const url = this.baseUrl + '/game/' + id + '/guess';
         const postBody = {
             expression: guessExpression
         }
